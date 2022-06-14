@@ -39,4 +39,5 @@ ou seja, ela para a contagem, porém respeita as funções de incremento e decre
   }
 
 /*Para que as funções de alterar cor (refreshColor) e parar contagem (stopColor) aconteçam é necessário chamá-las,
-dentro das funções de incremento e decremento, antes de fechar as chaves das funções nas quais essas são chamadas.*/ 
+dentro das funções de incremento e decremento, antes de fechar as chaves das funções nas quais essas são chamadas.
+Vide acima*/ 
