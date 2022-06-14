@@ -5,14 +5,14 @@ function increment() {
 	currentNumber = ++currentNumber;
 	currentNumberWrapper.innerHTML = currentNumber;
 	refreshColor();
-	stopCountIncrement();
+	stopCount();
 }
 
 function decrement() {
 	currentNumber = --currentNumber;
 	currentNumberWrapper.innerHTML = currentNumber;
 	refreshColor();
-	stopCountIncrement();
+	stopCount();
 }
 
 function refreshColor() {
@@ -23,7 +23,7 @@ function refreshColor() {
 	}  
   }
 
-  function stopCountIncrement() {
+  function stopCount() {
 	if (currentNumber < -9) {
 		currentNumber = 0};
 	if (currentNumber > 9) {
