@@ -28,7 +28,9 @@ function refreshColor() {
 	}  
   }
 
-//Essa função vai parar a contagem quanto o número for maior que 9+1 e quando for menor que 9-1
+/*Essa função vai parar a contagem quanto o número for maior que 9+1 e quando for menor que -9-1,
+ou seja, ela para a contagem, porém respeita as funções de incremento e decremento, cujo currentNumber
+é no máximo 9+1 e no mínimo -9-1*/. 
   function stopCount() {
 	if (currentNumber < -9) {
 		currentNumber = 0};
@@ -37,4 +39,4 @@ function refreshColor() {
   }
 
 /*Para que as funções de alterar cor (refreshColor) e parar contagem (stopColor) aconteçam é necessário chamá-las,
-dentro das funções de incremento e decremento.*/ 
+dentro das funções de incremento e decremento, antes de fechar as chaves das funções nas quais essas são chamadas.*/ 
